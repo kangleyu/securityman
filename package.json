@@ -4,7 +4,7 @@
   "description": "Json web token based authentication and authorization framework",
   "main": "securityman.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "keywords": [
     "securityman",
@@ -17,5 +17,9 @@
   "dependencies": {
     "jsonwebtoken": "^7.1.9",
     "mongoose": "^4.6.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
   }
 }
