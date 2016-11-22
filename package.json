@@ -1,0 +1,21 @@
+{
+  "name": "securityman",
+  "version": "0.0.1",
+  "description": "Json web token based authentication and authorization framework",
+  "main": "securityman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "securityman",
+    "jwt",
+    "authentication",
+    "authorization"
+  ],
+  "author": "Tom Yu <yukangle@outlook.com> (http://www.kangleyu.me)",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.8"
+  }
+}
